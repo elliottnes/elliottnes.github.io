@@ -1,0 +1,383 @@
+h1 {
+  font-family: 'Bungee Inline', cursive;
+  font-size: 100px;
+  color: black;
+}
+
+#white {
+  color: white;
+}
+
+h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+h3 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 22px
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: #AC09BC;
+}
+
+h1.alt {
+  font-family: 'Bungee inline', cursive;
+  color: white;
+  font-size: 26px
+}
+
+h1.contact {
+  font-family: 'Bungee inline', cursive;
+  font-size: 26px;
+  text-align: center;
+}
+
+.footerbox {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px 0px;
+  background: white;
+}
+
+h1.footer {
+  font-family: 'Bungee inline', cursive;
+  color: black;
+  font-size: 26px;
+  text-align: center;
+}
+
+p.footer {
+  text-align: center;
+}
+
+.copyright {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  font-size: 11px;
+}
+
+/* NOTE: Header/Nav */
+.header {
+  width: 100%;
+  text-align: right;
+  position: relative;
+}
+
+.page-title {
+  position: absolute;
+  top: -15;
+  left: 0;
+}
+
+.menu-burger {
+  display: none
+}
+
+@media (min-width: 50em) and (max-width: 68.75em) {
+  h1 {
+    font-size: 80px
+  }
+}
+
+@media (max-width: 50em) {
+  h1 {
+    font-size: 60px
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .menu-burger {
+    display: inline;
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    z-index: 2;
+  }
+
+  .sidenav {
+    height: 100%;
+    /* 100% Full-height */
+    width: 0;
+    /* 0 width - change this with JavaScript */
+    position: fixed;
+    /* Stay in place */
+    z-index: 8;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    right: 0;
+    background-color: #2C2C2C;
+    /* Black*/
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    transition: 0.5s;
+    /* 0.5 second transition effect to slide in the sidenav */
+    transition-timing-function: cubic-bezier(1, .42, .71, 1);
+  }
+
+  .overlay-content {
+    position: relative;
+    top: 12%;
+    /* 25% from the top */
+    width: 100%;
+    /* 100% width */
+    margin-top: 30px;
+    /* 30px top margin to avoid conflict with the close button on smaller screens */
+  }
+
+  .email {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    color: #f1f1f1;
+    display: block;
+    text-align: center;
+  }
+
+  .overlay-content a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Libre Baskerville', serif;
+    color: #f1f1f1;
+    display: block;
+    /* Display block instead of inline */
+    transition: 0.3s;
+    /* Transition effects on hover (color) */
+  }
+
+  .overlay-content h6 {
+    font-size: 10px;
+    font-family: 'Libre Baskerville', serif;
+    color: #878787;
+  }
+
+  .overlay-content a:hover, #links:hover {
+    color: #AC09BC;
+  }
+
+  .overlay-content p {
+    font-size: 16px;
+    font-family: 'Libre Baskerville', serif;
+    color: #f1f1f1;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .closebtn {
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 30px;
+    font-family: 'Bungee Inline', cursive;
+    color: #f1f1f1;
+  }
+
+  #mobile-top {
+    margin-top: 70px;
+  }
+}
+
+#mobile-top {
+  margin-top: 50px;
+}
+
+.link {
+  font-family: 'Libre Baskerville', serif;
+  display: inline-block;
+  padding: 15px 0;
+  margin: 15px 25px;
+  position: relative;
+  text-decoration: none;
+  color: #0f0f0f;
+  font-size: 20px;
+}
+
+#linkzine {
+  color: white;
+}
+
+.link:hover {
+  transform: translateY(-3px);
+  transition-timing-function: cubic-bezier(.17, .67, .55, .97);
+}
+
+#linkzine:hover {
+  transform: translateY(-3px);
+  transition-timing-function: cubic-bezier(.17, .67, .55, .97);
+}
+
+/* NOTE: CONTACT DROPDOWN */
+.aboutimg {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+#links {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  color: #f1f1f1;
+}
+
+#links-contact {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+#emailaddress {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  color: #f1f1f1;
+  padding: 8px;
+}
+
+#emailaddresscontact {
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  padding: 8px;
+}
+
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  /* Stay in place */
+  z-index: 3;
+  /* Sit on top */
+  left: 0;
+  bottom: 0;
+  background-color: #2C2C2C;
+  /* Black fallback color */
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 12%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  font-family: 'Libre Baskerville', serif;
+  color: #f1f1f1;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */
+}
+
+.overlay h6 {
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  color: #878787;
+}
+
+.overlay a:hover, #links:hover, #linkzine:hover,
+#links-contact:hover;
+
+  {
+  color: #AC09BC;
+}
+
+.overlay p {
+  font-size: 16px;
+  font-family: 'Libre Baskerville', serif;
+  color: #f1f1f1;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+  font-family: 'Bungee Inline', cursive;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+#top-margin {
+  margin-top: 60px;
+}
+
+#footer-margin {
+  margin-top: 40px;
+}
+
+#muraltext {
+  margin-top: -12px;
+}
+
+.date {
+  text-align: right;
+}
+
+.bg-black {
+  background-color: #1C1C1C
+}
+
+.muralheight {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.posterheight {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+}
+
+.zineheight {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 20px;
+  border: 1px black solid
+}
