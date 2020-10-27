@@ -45,7 +45,7 @@
 }
 
 .bit-50 {
-  width: 20%
+  width: 20%;
 }
 
 .bit-6 {
@@ -209,6 +209,10 @@
   .bit-2,
   .bit-7 {
     width: 100%;
+  }
+
+  .bit-50 {
+    width: 20%;
   }
 
   .bit-4,
