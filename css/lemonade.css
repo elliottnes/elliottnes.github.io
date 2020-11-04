@@ -165,6 +165,14 @@
   .bit-12 {
     width: 100%;
   }
+
+  .bit-33 {
+    width: 48%
+  }
+
+  .bit-15 {
+    width: 0%
+  }
 }
 
 @media (min-width: 30em) and (max-width: 50em) {
