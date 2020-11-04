@@ -389,6 +389,13 @@ h1.contact {
   color: white;
 }
 
+h1.contact_mobile {
+  font-family: 'Bungee inline', sans-serif;
+  font-size: 26px;
+  text-align: center;
+  color: black;
+}
+
 p.footer {
   text-align: center;
 }
