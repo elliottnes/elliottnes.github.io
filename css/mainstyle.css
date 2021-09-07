@@ -8,7 +8,9 @@ h1 {
   color: white;
 }
 
-h5, h6, p {
+h5,
+h6,
+p {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -166,7 +168,8 @@ p.footer {
     color: #878787;
   }
 
-  .overlay-content a:hover, #links:hover {
+  .overlay-content a:hover,
+  #links:hover {
     color: #AC09BC;
   }
 
@@ -304,10 +307,11 @@ p.footer {
   color: #878787;
 }
 
-.overlay a:hover, #links:hover, #linkzine:hover,
-#links-contact:hover, #padding8:hover;
-
-  {
+.overlay a:hover,
+#links:hover,
+#linkzine:hover,
+#links-contact:hover,
+#padding8:hover {
   color: #AC09BC;
 }
 
